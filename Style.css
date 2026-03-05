@@ -1,0 +1,117 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tipografía y colores principales */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+}
+
+/* Encabezado y navegación */
+header {
+  background-color: #002d5a; /* Azul corporativo */
+  padding: 15px 30px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #ffd200; /* Amarillo acento */
+}
+
+/* Hero principal */
+#hero {
+  background: linear-gradient(rgba(0,45,90,0.7), rgba(0,45,90,0.7)), url("hero-bg.jpg") center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Secciones */
+section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #002d5a;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+section p, section ul {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+section ul {
+  list-style: disc;
+  padding-left: 40px;
+}
+
+/* Imagen promocional */
+.promo {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.promo img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #002d5a;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+footer h2 {
+  margin-bottom: 15px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
